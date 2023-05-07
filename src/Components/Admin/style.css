@@ -1,0 +1,82 @@
+.pending{
+    padding: 10px 30px;
+    border: 0px;
+    outline: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(209, 41, 209);
+    border-radius: 5px;
+}
+.cancled{
+    padding: 10px 30px;
+    border: 0px;
+    outline: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(209, 94, 41);
+    border-radius: 5px;
+}
+.approved{
+    padding: 10px 30px;
+    border: 0px;
+    outline: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(89, 209, 41);
+    border-radius: 5px;
+}
+.hold{
+    padding: 10px 30px;
+    border: 0px;
+    outline: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: rgba(255, 107, 230, 0.877);
+    border-radius: 5px;
+}
+
+.pagination {
+    /* width: 85%; */
+    /* height: 40px; */
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 30px;
+    width: 100%;
+    /* background-color: gold; */
+  }
+  
+  .pagination a {
+    padding: 10px 15px;
+    margin: 8px;
+    border: 1px solid lightgray;
+
+    border-radius: 5px;
+    color: black;
+    background-color: rgb(167, 167, 167);
+  }
+  
+  .pagination_link{
+    /* padding: 10px 25px; */
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .pagination_link_active a{
+    color: black;
+    background: #ded747;
+  }
+  .pagination_link_disable a{
+    color: rgb(13, 13, 14);
+    /* border: 1px solid rgb(198, 197, 202); */
+  }
+  

@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+}
+
+.pagination {
+  width: 30px;
+  /* height: 40px; */
+  display: flex;
+  justify-content: center;
+  /* list-style: none; */
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 30px;
+  /* background-color: gold; */
+}
+
+.pagination a {
+  padding: 10px 15px;
+  margin: 8px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  color: black;
+}
+
+.pagination_link{
+  /* padding: 10px 25px; */
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+}
+
+.pagination_link_active a{
+  color: #fff;
+  background: #47a7de;
+}
+.pagination_link_disable a{
+  color: rgb(198, 197, 202);
+  border: 1px solid rgb(198, 197, 202);
+}
+
+.delivard{
+  color: rgb(16, 165, 16);
+}
+.pending{
+  color: blue;
+}
+.canceled{
+  color: red;
+}
+.hold{
+  color: gold;
+}
+.containerStyle{
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px 0px;
+}
+.inputStyle{
+  border: 1.5px solid rgb(251, 20, 255);
+  padding: 15px 20px;
+  outline: none;
+  border-radius: 5px;
+}
