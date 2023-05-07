@@ -15,13 +15,13 @@ const App = () => {
   return (
     <div>
       <Routes>
-        <Route path="/*" element={ <PageRouting />} />
-        {/* <Route path="/admin-dashboard/*" element={ <AdminPrivate><AdminRoutePage /></AdminPrivate>} /> */}
-        <Route path="/seller-page" element={ <LandingPage />} />
-        <Route path="/seller-dashboard/*" element={ <Private><SellerRouting /></Private>} />
-        {/* <Route path="/login-admin" element={ <SignInAdmin /> } />
+        {/* <Route path="/*" element={ <PageRouting />} /> */}
+        <Route path="/admin-dashboard/*" element={ <AdminPrivate><AdminRoutePage /></AdminPrivate>} />
+        {/* <Route path="/seller-page" element={ <LandingPage />} />
+        <Route path="/seller-dashboard/*" element={ <Private><SellerRouting /></Private>} /> */}
+        <Route path="/login-admin" element={ <SignInAdmin /> } />
         <Route path="/signup-admin" element={ <SignUpAdmin /> } />
-        <Route path="/otp-admin" element={ <AdminOtp /> } /> */}
+        <Route path="/otp-admin" element={ <AdminOtp /> } />
       </Routes>
       
      
