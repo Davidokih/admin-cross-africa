@@ -23,8 +23,6 @@ const App = () => {
         <Route path="/signup-admin" element={ <SignUpAdmin /> } />
         <Route path="/otp-admin" element={ <AdminOtp /> } />
       </Routes>
-      
-     
     </div>
   );
 };
